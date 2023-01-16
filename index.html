@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISDI Coders Pasapalabra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="main-title">
+            <h1>ISDI Coders Pasapalabra</h1>
+        </header>
+
+        <section>
+            <div class="question hidden"></div>
+        </section>
+
+        <section class="letters hidden">
+            <div class="letter-box">A</div>
+            <div class="letter-box">B</div>
+            <div class="letter-box">C</div>
+            <div class="letter-box">D</div>
+            <div class="letter-box">E</div>
+            <div class="letter-box">F</div>
+            <div class="letter-box">G</div>
+            <div class="letter-box">H</div>
+            <div class="letter-box">I</div>
+            <div class="letter-box">J</div>
+            <div class="letter-box">K</div>
+            <div class="letter-box">L</div>
+            <div class="letter-box">M</div>
+            <div class="letter-box">N</div>
+            <div class="letter-box">Ñ</div>
+            <div class="letter-box">O</div>
+            <div class="letter-box">P</div>
+            <div class="letter-box">Q</div>
+            <div class="letter-box">R</div>
+            <div class="letter-box">S</div>
+            <div class="letter-box">T</div>
+            <div class="letter-box">U</div>
+            <div class="letter-box">V</div>
+            <div class="letter-box">W</div>
+            <div class="letter-box">X</div>
+            <div class="letter-box">Y</div>
+            <div class="letter-box">Z</div>
+        </section>
+
+        <section class="start-game">
+            <p class="intro-game">Bienvenidos al juego Pasapalabra de ISDI Coders.<br><br>
+                Para cada letra del abecedario, se mostrarán definiciones donde el usuario deberá responder con la
+                palabra correcta.
+                Puede que empiece con esa letra o que esté contenida en la palabra.
+                Además se podrá utilizar el botón de "Pasapalabra" para responder a esta pregunta más adelante
+                continuando con la siguiente letra.<br><br>
+                Recordar que hay un tiempo máximo para finalizar el juego con la mayor cantidad de aciertos.<br><br>
+                Coloca tu nombre en "User Name" y haz click en "Start Game" para comenzar el juego. Muchos éxitos!</p>
+            <input class="user-name-input" type="text" placeholder="User Name" required></div>
+            <button class="start-button">START GAME</button>
+        </section>
+
+        <section class="user-panel hidden">
+            <input class="answer-input" type="text" placeholder="Answer" required></div>
+            <button class="ok-button">OK</button>
+            <button class="pasapalabra-button">PASAPALABRA</button>
+            <button class="stop-button">STOP</button>
+            <button class="play-again-button">PLAY AGAIN</button>
+        </section>
+
+        <section>
+            <div class="answer hidden">Responde la pregunta o haz click en "Pasapalabra".</div>
+        </section>
+
+        <section class="ranking-panel hidden">
+            <ul class="ranking-list">
+                <li class="ranking-list-title">Users Ranking:</li>
+            </ul>
+            <div class="results"></div>
+            <button class="result-play-again-button">PLAY AGAIN </button>
+        </section>
+
+        <section class="timer">
+            <div class="game-time hidden"></div>
+            <div class="timer-message hidden">Se te acabó el tiempo.</div>
+        </section>
+
+        <footer>
+            <h2>Copyright - Isdi Coders Pasapalabra by Leandro Lupano</h2>
+        </footer>
+
+    </main>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
